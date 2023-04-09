@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="google" content="notranslate">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="AIA">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>AIA | ABOUT</title>
+    <meta name="description" content="AIA">
+    <meta name="keywords" content="AIA">
+    <meta property="og:url" content="https://ui.techable.vn/aia/falling-game.html">
+    <meta property="og:title" content="AIA">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="/images/thumbnail.png">
+    <meta property="og:description" content="description">
+    <meta property="og:site_name" content="AIA">
+    <meta property="og:locale" content="vi_VN">
+    <meta name="theme-color" content="#fff" />
+    <link rel="canonical" href="https://ui.techable.vn/aia/falling-game.html" />
+    <link rel="alternate" href="https://ui.techable.vn/aia/falling-game.html" hreflang="vi" />
+    <link rel="alternate" href="https://ui.techable.vn/aia/falling-game.html" hreflang="x-default" />
+    <link rel="icon" href="images/favicon.ico">
+    <style>
+        .popup,
+        .nav__but {
+            display: none;
+        }
+    </style>
+    <link rel="preload" href="images/falling/game-bg.jpg" as="image" media="(min-width: 1101px)">
+    <link rel="preload" href="images/falling/game-bg-sp.jpg" as="image" media="(max-width: 1100px)">
+    <link rel="preload" as="font" crossorigin type="font/woff2" href="fonts/AIAEverest-Bold.woff2" />
+    <link rel="preload" as="font" crossorigin type="font/woff2" href="fonts/AIAEverest-Regular.woff2" />
+    <link rel="preload" as="font" crossorigin type="font/woff2" href="fonts/AIAEverest-Medium.woff2" />
+    <link rel="preload" as="font" crossorigin type="font/woff2" href="fonts/AIAEverest-ExtraBold.woff2" />
+    <link rel="preload" as="font" crossorigin type="font/woff2" href="fonts/AIAEverest-CondensedMedium.woff2" />
+    <link rel="preload" as="font" crossorigin type="font/woff2" href="fonts/AIAEverest-Condensed.woff2" />
+    <link href="css/styles.css" rel="stylesheet" rel="preload" as="style">
+    <link href="css/falling.css" rel="stylesheet" rel="preload" as="style">
+</head>
+
+<body data-page="falling-game">
+
+    <div class="page">
+        <div class="section falling">
+            <div class="falling-core">Điểm: <span id="fallingCore">0</span>/100</div>
+            <div class="falling-timer">Giờ: <span id="fallingTimer">0</span>/60s</div>
+            <div class="buts flex__center">
+                <button class="btn bg__orange" id="fallingStart"><span>Chơi ngay</span></button>
+            </div>
+            <div class="falling-player">
+                <div id="falling-box"></div>
+                <div id="falling-player"></div>
+                <div id="falling-wrapper"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--popup-->
+    <div class="popup popup-message win-game">
+        <div class="overlay-pop"></div>
+        <div class="popup-inr popup-inr__message">
+            <div class="popup-title">
+                <h3>CHÚC MỪNG BẠN ĐÃ CHIẾN THẮNG</h3>
+            </div>
+            <div class="popup-detail">
+                <div class="popup-detail__message">
+                    <div class="message-title">Chúc mừng Bạn đã nhận được <br>20 Điểm Năng Lượng</div>
+                </div>
+                <div class="buts flex__evenly">
+                    <button type="button" class="btn bg__purple playAgain"><span>Chơi tiếp</span></button>
+                    <a class="btn bg__purple" href="hen-gap-nhan-vat.html"><span>Về Trang Trước</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup popup-message lost-game">
+        <div class="overlay-pop"></div>
+        <div class="popup-inr popup-inr__message">
+            <div class="popup-title">
+                <h3>BUỒN QUÁ THUA MẤT RỒI</h3>
+            </div>
+            <div class="popup-detail">
+                <div class="popup-detail__message">
+                    <div class="message-title">Thua keo này ta bày keo khác <br>nhấn chơi lại để tiếp tục nhen</div>
+                </div>
+                <div class="buts flex__evenly">
+                    <button type="button" class="btn bg__purple playAgain"><span>Chơi lại</span></button>
+                    <a class="btn bg__purple" href="hen-gap-nhan-vat.html"><span>Về Trang Trước</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--popup-->
+
+    <script src="js/common.js"></script>
+    <script src="js/jquery-min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/falling.js"></script>
+
+    <!--lazy css-->
+    <noscript id="normal-styles">
+        <link href="css/popup.css" rel="stylesheet" type="text/css">
+    </noscript>
+    <script>
+        var normalStyles = function () {
+            var normalNode = document.getElementById("normal-styles");
+            var normalReplacement = document.createElement("div");
+            normalReplacement.innerHTML = normalNode.textContent;
+            document.body.appendChild(normalReplacement);
+            normalNode.parentElement.removeChild(normalNode);
+        };
+        window.setTimeout(normalStyles, 0);
+    </script>
+
+</body>
+
+</html>

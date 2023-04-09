@@ -1,0 +1,367 @@
+@media screen and (min-width:1101px) {
+    .banner-item::before {
+        padding-top:31.35416666%;
+    }
+    .banner-txt {    
+        align-items:flex-start;
+        justify-content:center;
+        text-align:center;
+    }
+    .txt-outer {
+        width:43%;
+        -webkit-transform:translateY(17vw);
+        transform:translateY(17vw);
+    }
+    .banner-pic::before {
+        content:'';
+        position:absolute;
+        left:0;
+        bottom:0;
+        width:100%;
+        height:67.774%;
+        background:linear-gradient(0deg, rgba(0, 0, 0, 0.6) 1.98%, rgba(0, 0, 0, 0) 90.22%);
+    }
+
+    .vn-map::before {
+        content:'';
+        position:absolute;
+        left:0;
+        top:-0.7vw;
+        width:100%;
+        height:100%;
+        background:url(../images/story/bg-mash.png) no-repeat center top;
+        background-size:100% auto;
+    }
+
+    .vn-map__box {
+        position:relative;
+        width:100%;
+        display:flex;
+        flex-wrap:wrap;
+        overflow:hidden;
+        -webkit-mask-image:url(../images/story/mash.png);
+        mask-image:url(../images/story/mash.png);
+        -webkit-mask-size:100%;
+        mask-size:100%;
+        -webkit-mask-repeat:no-repeat;
+        mask-repeat:no-repeat;
+        margin-top:-5vw;
+    }
+    .vn-map__box::after {
+        content:'';
+        position:absolute;
+        left:0;
+        bottom:0;
+        width:100%;
+        height:25.6%;
+        background:linear-gradient(180deg, rgba(243, 243, 243, 0) 0%, #F3F3F3 100%);
+    }
+    .vn-map__pic { 
+        flex:0 0 61%;
+        max-width:61%;
+        line-height:0;
+    }
+    .vn-map__pic img {
+        position:relative;
+        top:2.2vw;
+        left:-1.2%;
+        width:104%;
+        height:auto;
+    }
+    .vn-map__txt {
+        position:relative;
+        flex:0 0 39%;
+        max-width:39%;
+        display:flex;
+        align-items:center;
+    }
+    .vn-map__txt::before {
+        content:'';
+        position:absolute;
+        right:-12%;
+        top:0;
+        width:112%;
+        height:100%;
+        background:#D21E47;
+        -webkit-transform:skewX(-5deg);
+        transform:skewX(-5deg);
+    }
+    .vn-outer {
+        position:relative;
+        padding:0 14%;
+        color:#fff;
+        text-align:center;
+        z-index:1;
+    }
+    .vn-outer span {
+        font-size:1.041666vw;
+        font-weight:normal;
+    }
+    .vn-outer span strong {
+        font-size:1.25vw;
+        font-weight:bold;
+    }
+    .vn-outer .title {
+        width:100%;
+        margin:0 auto 1.401666vw auto;
+    }
+    .vn-outer .title h2,
+    .vn-outer .title span {
+        color:#fff;
+        font-size:4.1666vw;
+    }
+    .vn-outer .title h2 {
+        position:relative;
+    }
+    .vn-outer .title h2 span {
+        position:absolute;
+        left:1%;
+        top:4%;
+        width:100%;
+        -webkit-text-fill-color:transparent;
+        -webkit-text-stroke:1px #fff;
+        font-weight:bold;
+    }
+    .brief__vn-map {
+        padding:0;
+        font-size:1.041666vw;
+        margin-bottom:2.08333vw;
+    }
+    .vn-outer .btn span {
+        font-size:1.1458333vw;
+        font-weight:bold;
+    }
+
+
+    .top6 {
+        padding:7.7083vw 0 5.10416666vw 0;
+    }
+    .brief__top6 {
+        width:44%;
+        margin:0 auto 3.125vw auto;
+        text-align:center;
+    }
+    .top6-box {
+        width:81.8125%;
+        margin:0 auto;
+    }
+    .top6-slider,
+    .top6-box .swiper-wrapper {
+        width:100%;
+        height:auto;
+    }
+    .top6-box .swiper-wrapper {
+        flex-wrap:wrap;
+    }
+    
+    .top6-box .swiper-slide {
+        flex:0 0 28%;
+        max-width:28%;
+        margin:0 8% 4% 0;
+        width:auto !important;
+    }
+    .top6-box .swiper-slide:nth-child(3n) {
+        margin:0 0 4% 0;
+    }
+
+    .top6-item {
+        position:relative;
+        width:100%;
+    }
+    .reward__brief {
+        width:40%;
+        margin:0 auto 4.1666vw auto;
+        font-size:2.08333vw;
+    }
+    .reward__brief h2 {
+        font-size:2.6041666vw;
+    }
+    .rewards .buts {
+        margin-bottom:0.73vw;
+    }
+    .reward-pic {
+        width:80.625%;
+        margin:0 auto 4.1666vw auto;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .banner-item::before {
+        padding-top:79.06666%;
+    }
+    .banner-txt {    
+        align-items:center;
+        justify-content:center;
+        text-align:center;
+    }
+    .txt-outer {
+        width:90%;
+    }
+    .banner-txt .title-cap {
+        font-size:24px;
+    }
+    .banner-txt h2 {
+        font-size:34px;
+        margin-bottom:8px;
+    }
+    .banner-txt p {
+        margin-bottom:0;
+    }
+
+
+    .vn-map::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top:-5px;
+        width: 100%;
+        height: 100%;
+        background: url(../images/story/bg-mash-sp.png) no-repeat center top;
+        background-size: 100% auto;
+    }
+    .vn-map__box {
+        width:100%;
+        height:auto;
+    }
+    .vn-map__box::after {
+        content:'';
+        position:absolute;
+        left:0;
+        bottom:0;
+        width:100%;
+        height:76px;
+        background:linear-gradient(180deg, rgba(243, 243, 243, 0) 0%, #F3F3F3 100%);
+    }
+    .vn-map__pic {
+        position:relative;
+        width:100%;
+        line-height:0;
+        display:block;
+        -webkit-mask-image:url(../images/story/mash-sp.png);
+        mask-image:url(../images/story/mash-sp.png);
+        -webkit-mask-size:100%;
+        mask-size:100%;
+        -webkit-mask-repeat:no-repeat;
+        mask-repeat:no-repeat;
+        margin-top:-1vw;
+    }
+    .vn-map__pic img {
+        width:100%;
+        height:auto;
+    }
+    .vn-map__txt {
+        position:relative;
+        width:100%;
+        background-color:#D21E47;
+    }
+    .vn-outer {
+        width:88%;
+        margin:0 auto;
+        text-align:center;
+        color:#fff;
+        padding:54px 0 136px 0;
+    }
+    .vn-outer span {
+        font-size:20px;
+    }
+    .vn-outer span strong {
+        font-size:24px;
+    }
+    .vn-outer .title {
+        width:100%;
+        padding-top:18px;
+    }
+    .vn-outer .title h2,
+    .vn-outer .title span {
+        color:#fff;
+        font-size:48px;
+    }
+    .vn-outer .title h2 {
+        position:relative;
+    }
+    .vn-outer .title h2 span {
+        position:absolute;
+        left:1%;
+        top:4%;
+        width:100%;
+        -webkit-text-fill-color:transparent;
+        -webkit-text-stroke:1px #fff;
+        font-weight:bold;
+    }
+    .brief__vn-map {
+        margin-bottom:40px;
+    }
+    .vn-outer .btn {
+        width:100%;
+        padding:15px 0 14px 0;
+    }
+    .vn-outer .btn span {
+        font-size:16px;
+    }
+
+    .top6 {
+        padding:70px 0;
+    }
+    .brief__top6 {
+        text-align:center;
+        width:90%;
+        margin:0 auto 36px auto;
+    }
+    .top6-box {
+        position:relative;
+        width:85.3333%;
+        margin:0 auto 30px auto;
+        padding-bottom:64px;
+    }
+    .top6-slider {
+        width:100%;
+    }
+    .top6-box .swiper-button-next, 
+    .top6-box .swiper-button-prev {
+        top:auto;
+        bottom:0;
+        width:55px;
+        height:30px;
+        -webkit-transform:none;
+        transform:none;
+        margin:0;
+    }
+    .top6-box .swiper-button-next {
+        background:url(../images/next-red.svg) no-repeat center center;
+        background-size:100% auto;
+        right:0;
+    }
+    .top6-box .swiper-button-prev {
+        background:url(../images/prev-red.svg) no-repeat center center;
+        background-size:100% auto;
+        left:0;
+    }
+
+    .reward-detail {
+        width:86.4%;
+        margin:0 auto;
+    }
+    .reward__brief {
+        margin-bottom:60px;
+    }
+    .reward__brief h2{
+        font-size:34px;
+    }
+    .reward__brief p{
+        font-size:28px;
+    }
+    .reward-pic {
+        margin-bottom:60px;
+    }
+    .reward-detail .buts{
+        margin-bottom:20px;
+    }
+    .reward-detail .btn {
+        width:100%;
+        padding:20px 0;
+    }
+    .reward-detail .btn span {
+        font-size:16px;
+    }
+
+}

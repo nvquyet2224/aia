@@ -1,0 +1,210 @@
+@media screen and (min-width:1101px) {
+    .banner::after {
+        content:'';
+        position:relative;
+        display:block;
+        width:100%;
+        height:10.15625vw;
+        background:url(../images/gallery/mash.png) no-repeat center top;
+        background-size:100% auto;
+        margin-top:-5vw;
+    }
+    .banner-item::before {
+        padding-top:31.35416666%;
+    }
+    .banner-txt {    
+        align-items:flex-start;
+        justify-content:center;
+        text-align:center;
+    }
+    .txt-outer {
+        width:43%;
+        -webkit-transform:translateY(17vw);
+        transform:translateY(17vw);
+    }
+    .banner-pic::before {
+        content:'';
+        position:absolute;
+        left:0;
+        bottom:0;
+        width:100%;
+        height:67.774%;
+        background:linear-gradient(0deg, rgba(0, 0, 0, 0.6) 1.98%, rgba(0, 0, 0, 0) 90.22%);
+    }
+    
+    
+    .gallery {
+        padding:1.0416666vw 0 7.65625vw 0;
+        background: linear-gradient(180deg, #F0F0F0 0%, rgba(240, 240, 241, 0) 100%);
+    }
+    .gallery-box {
+        display:block;
+        width:80%;
+        margin:0 auto;
+    }
+    .gallery-control {
+        width:100%;
+        display:flex;
+        flex-wrap:wrap;
+        margin-bottom:2.5vw;
+    }
+    .gallery-search {
+        flex:0 0 74.226666%;
+        max-width:74.226666;
+    }
+    .gallery-select {
+        flex:0 0 22.680001%;
+        max-width:22.680001%;
+        margin-left:3.093333%;
+    }
+    .input__seach {
+        background:url(../images/search-icon-red.svg) no-repeat 1.0416666vw center;
+        background-size:1.823vw auto;
+        background-color:#fff;
+        padding-left:4.0625vw;
+    }
+    .gallery-results {
+        width:100%;
+    }
+    .gallery-slider {
+        width:100%;
+    }
+    .gallery-results .swiper-wrapper {
+        flex-wrap:wrap;
+        -webkit-transform:none !important;
+        transform:none !important;
+    }
+    .gallery-results .swiper-slide {
+        height:auto;
+        display:flex;
+        width:50% !important;
+        
+    }
+    .gallery-item {
+        flex:0 0 45.4%;
+        max-width:45.4%;
+        margin-bottom:6.2%;
+    }
+    .gallery-results .swiper-slide:nth-child(odd) .gallery-item:nth-child(2){
+        margin-left:6.2%;
+    }
+    .gallery-results .swiper-slide:nth-child(even) .gallery-item:nth-child(1) {
+        margin-left:3%;
+    }
+    .gallery-results .swiper-slide:nth-child(even) .gallery-item:nth-child(2) {
+        margin-left:6.2%;
+    }
+    .card-name {
+        padding:0 0 4.8% 4.8%;
+    }
+    .card-name h3, 
+    .card-name span {
+        font-size:3.125vw;
+    }
+    .card-arrow {
+        right:4.5%;
+        bottom:9%;
+    }
+    .gallery-box .swiper-button-next, 
+    .gallery-box .swiper-button-prev {
+        display:none;
+    }
+
+}
+
+
+@media screen and (max-width:1100px) {
+    .banner-item::before {
+        padding-top:79.06666%;
+    }
+    .banner::after {
+        content:'';
+        position:relative;
+        display:block;
+        width:100%;
+        height:10.6666vw;
+        background:url(../images/gallery/mash-sp.png) no-repeat center top;
+        background-size:100% auto;
+        margin-top:-6vw;
+    }
+    .banner-txt {    
+        align-items:center;
+        justify-content:center;
+        text-align:center;
+    }
+    .txt-outer {
+        width:90%;
+    }
+    .banner-txt .title-cap {
+        font-size:24px;
+    }
+    .banner-txt h2 {
+        font-size:34px;
+        margin-bottom:8px;
+    }
+    .banner-txt p {
+        margin-bottom:0;
+    }
+
+
+    .gallery {
+        padding:15px 0 70px 0;
+        width:100%;
+        background: linear-gradient(180deg, #F0F0F0 0%, rgba(240, 240, 241, 0) 100%);
+    }
+    .gallery-box {
+        position:relative;
+        width:88%;
+        margin:0 auto;
+    }
+    .gallery-results {
+        position:relative;
+        width:100%;
+        margin-bottom:30px;
+        padding-bottom:64px;
+    }
+    .gallery-search,
+    .gallery-select {
+        width:100%;
+    }
+    .gallery-search {
+        margin-bottom:13px;
+    }
+    .input__seach {
+        background:url(../images/search-icon-red.svg) no-repeat 15px center;
+        background-size:23px auto;
+        background-color:#fff;
+        padding-left:53px;
+    }
+    .gallery-control {
+        margin-bottom:36px;
+    }
+    .gallery-item {
+        margin-bottom:22px;
+    }
+    .gallery-item:last-child {
+        margin-bottom:0;
+    }
+    .gallery-box .swiper-button-next, 
+    .gallery-box .swiper-button-prev {
+        top:auto;
+        bottom:0;
+        width:55px;
+        height:30px;
+        -webkit-transform:none;
+        transform:none;
+        margin:0;
+    }
+    .gallery-box .swiper-button-next {
+        background:url(../images/next-red.svg) no-repeat center center;
+        background-size:100% auto;
+        right:0;
+    }
+    .gallery-box .swiper-button-prev {
+        background:url(../images/prev-red.svg) no-repeat center center;
+        background-size:100% auto;
+        left:0;
+    }
+
+
+}
